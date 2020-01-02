@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("/Users/lauren/Desktop/class-projects/client-blog/congruent_pentagon.png");
+  font-family: 'Khula', sans-serif; 
+  color: #061F03;  
+}
+
+h1, h2 {
+  font-family: 'Pangolin', cursive;
+  color: #02CC89;
+}
+.title-blog {
+    display: inline-block;
+    margin-left: 260px;
+    margin-top: 60px;
+    background: #FFFEA6;
+    padding: 70px;
+    font-size: 55px;
+    font-weight: 5;
+    text-transform: uppercase;
+    letter-spacing: 1.8px ;
+    margin-bottom: 1px;
+    
+}
+.title-img {
+    display: inline-block;
+    margin-left: 150px;
+    background: #FFFEA6;
+    padding: 15px;
+    margin-bottom: 100px;
+  
+}
+.date-author {
+    display: inline-block;
+    margin-left: 220px;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 10;
+    letter-spacing: .5px ;
+    margin-bottom: 20px;
+}
+.event-title{
+    width: 22%;
+    background: #FFFEA6;
+    padding: 15px;
+    margin-left: 130px;
+    font-size: 45px;
+    font-weight: 10;
+    letter-spacing: 2.5px ;
+    margin-bottom: 30px;
+}
+.event-content {
+    width: 82%;
+    background: #FFFEA6;
+    margin-left: 130px;
+    padding: 25px;
+    font-size: 19px;
+    font-weight: 10;
+    letter-spacing: .5px ;
+    margin-bottom: 20px;
+}
+.event-location {
+    display: inline-block;
+    background: #FFFEA6;
+    margin-left: 130px;
+    padding: 25px;
+    font-size: 14px;
+    font-weight: 3;
+    text-transform: uppercase;
+    letter-spacing: 1px ;
+    margin-bottom: 150px;
+}
+
+.title-img-2 {
+  display: inline-block;
+  margin-left: 150px;
+  background: #FFFEA6;
+  padding: 15px;
+  margin-bottom: 100px;    
+}
+
+a {
+  display: inline-block;
+  border: transparent;
+  padding: 25px;
+  margin: 205px;
+  font-size: 25px;
+  text-decoration: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;	
+  transition: all .5s ease;
+  color: #02CC89;
+}
+
+a.facebook-button {
+  background: transparent;
+  border: transparent;	
+  text-shadow: 4px 4px 2px #BFFABA;
+  color: #02CC89;
+}
+
+a.twitter-button {
+  background: transparent;
+  border: transparent;
+  text-shadow: 4px 4px 2px #BFFABA; 
+  color: #02CC89;
+}
+
+a:visited{
+  background: #BFFABA;
+}
+
+a:hover{
+  background: #99F5AD;
+  border: 1px solid #52FA8C;
+  text-shadow: 4px 4px 2px #BFFABA;
+  color: #FEFFA4
+}
+
+a:active{
+  background: #A1FA8F;
+}
