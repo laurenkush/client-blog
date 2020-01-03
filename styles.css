@@ -14,6 +14,7 @@ h1, h2 {
   font-family: 'Pangolin', cursive;
   color: #02CC89;
 }
+
 .title-blog {
     display: inline-block;
     margin-left: 260px;
@@ -24,17 +25,17 @@ h1, h2 {
     font-weight: 5;
     text-transform: uppercase;
     letter-spacing: 1.8px ;
-    margin-bottom: 1px;
-    
+    margin-bottom: 1px;   
 }
+
 .title-img {
     display: inline-block;
     margin-left: 150px;
     background: #FFFEA6;
     padding: 15px;
-    margin-bottom: 100px;
-  
+    margin-bottom: 100px; 
 }
+
 .date-author {
     display: inline-block;
     margin-left: 220px;
@@ -44,7 +45,8 @@ h1, h2 {
     letter-spacing: .5px ;
     margin-bottom: 20px;
 }
-.event-title{
+
+.event-title {
     width: 22%;
     background: #FFFEA6;
     padding: 15px;
@@ -54,6 +56,7 @@ h1, h2 {
     letter-spacing: 2.5px ;
     margin-bottom: 30px;
 }
+
 .event-content {
     width: 82%;
     background: #FFFEA6;
@@ -64,6 +67,7 @@ h1, h2 {
     letter-spacing: .5px ;
     margin-bottom: 20px;
 }
+
 .event-location {
     display: inline-block;
     background: #FFFEA6;
@@ -112,17 +116,17 @@ a.twitter-button {
   color: #02CC89;
 }
 
-a:visited{
+a:visited {
   background: #BFFABA;
 }
 
-a:hover{
+a:hover {
   background: #99F5AD;
   border: 1px solid #52FA8C;
   text-shadow: 4px 4px 2px #BFFABA;
   color: #FEFFA4
 }
 
-a:active{
+a:active {
   background: #A1FA8F;
 }
